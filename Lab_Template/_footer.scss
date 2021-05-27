@@ -1,0 +1,99 @@
+footer {
+    #footer-container {
+    height: auto;
+    background-color: #333333;
+    color: #444444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        color: white;
+        font-size: 20px;
+        padding-top: 2vh;
+        color: #444444;
+        font-weight: bold;
+    }
+    // socials
+    ul {
+        display: flex;
+        list-style: none;
+        width: 25%;
+        justify-content: space-around;
+        padding-left: 0;
+        a {
+            text-decoration: none;
+            color: white;
+            margin: 1vh;
+        }
+        #li1 {
+            background-color: #00bbf5;
+            padding: 9.5px 10px;
+            font-size: 1em;
+        }
+        #li2 {
+            background-color:#f6a42b;
+            padding: 9.5px 12px;
+            font-size: 1em;
+        }
+        #li3 {
+            background-color:#3b5999;
+            padding: 10px 14px;
+            font-size: 1em;
+        }
+        #li4 {
+            background-color:#558f5f;
+            padding: 10px 13px;
+            font-size: 1em;
+        }
+        #li5 {
+            background-color: #cc3333;
+            padding: 10px 9px;
+            font-size: 1em;
+        }
+        #li6 {
+            background-color: grey;
+            padding: 10px 13px;
+            font-size: 1em;
+        }
+        #li7 {
+            background-color:#f46899;
+            padding: 10px 11px;
+            font-size: 1em;
+        }
+        #li8 {
+            background-color:#f13434;
+            padding: 10px 13px;
+            font-size: 1em;
+            
+        }
+    }
+    //
+    p {
+        font-size: 16.87px;
+        line-height: 30px;
+        @media only screen and (max-width:375px) {
+            font-size: 0.8em;
+            width: 80%;
+        }
+    }
+    #freestuff {
+        border: none;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        color: #474747;
+        background-color: #ff6666;
+        padding : 1.5vh 10vh 1.5vh 10vh;
+        margin-bottom: 3vh;
+    }
+    #freestuff:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    }
+}

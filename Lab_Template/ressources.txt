@@ -1,0 +1,12 @@
+HELVETICANEUELTCom TH 16px (titre)   Roboto
+                   Roman (6px)(texte)  Latto
+
+color="#333333" - grey footer
+color="#ff6666" - red/pink section
+color="#c22929" - red/pink section title
+color="#333333" - footer
+color="#474747" - footer text.
+
+
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
